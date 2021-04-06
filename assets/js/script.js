@@ -2,7 +2,7 @@ $(document).ready(function () { //call back function
     var currentDate= moment().format('MMMM Do YYYY, h:mm:ss a');
     $("#currentDay").text(currentDate);
 
-    $(".saveBtn").on('click', function () {  //always takes two arguments
+    $(".saveBtn").on('click', function () {  //.on takes 2 params, the event we want(click) and the function
         let value = $(this).siblings('.text').val()
         
         let time = $(this).parent().attr('id')
@@ -48,7 +48,8 @@ $("#17 .text").val(localStorage.getItem('17'));
 
 })
 
-// all colums live in a row have to equal to 12
+// all colums live in a row have to equal to 12 in boot
+//if numbers in console are purple they are an integer so if black need to parse
 
 
 

@@ -29,8 +29,8 @@ When the user opens the planner the current day and time is displayed at the top
 
 ## Links
 
-* [GitHub Repository](https://github.com/efagioli01/API-code-quiz)
-* [Deployed Application](https://efagioli01.github.io/API-code-quiz/)
+* [GitHub Repository](https://github.com/efagioli01/Work-Day-Scheduler-Code-Refactor)
+* [Deployed Application](https://efagioli01.github.io/Work-Day-Scheduler-Code-Refactor/)
 
 
 ## Screenshot 

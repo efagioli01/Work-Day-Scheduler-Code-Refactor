@@ -6,7 +6,6 @@ For the fifth homework assignment in week five of UNH Full-Stack Coding Bootcamp
 
 ## User Story
 
-```md
 AS AN employee with a busy schedule
 I WANT to add important events to a daily planner
 SO THAT I can manage my time effectively

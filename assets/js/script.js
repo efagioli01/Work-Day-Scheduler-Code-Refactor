@@ -1,13 +1,13 @@
-$(document).ready(function () { //call back function
+$(document).ready(function () { 
     var currentDate= moment().format('MMMM Do YYYY, h:mm:ss a');
     $("#currentDay").text(currentDate);
 
-    $(".saveBtn").on('click', function () {  //.on takes 2 params, the event we want(click) and the function
+    $(".saveBtn").on('click', function () {  
         let value = $(this).siblings('.text').val()
         
         let time = $(this).parent().attr('id')
 
-        localStorage.setItem(time, value) //key value pairs also //no need for quotes on var
+        localStorage.setItem(time, value) 
 
     } );
 
@@ -33,7 +33,7 @@ console.log(hour)
 
 timeColor();
 
-let interval = setInterval(timeColor, 15000)  //always takes in 2 arguments 1. name of fun or callback 2. number of mil sec this fun will run at
+let interval = setInterval(timeColor, 15000)  
 
 
 $("#9 .text").val(localStorage.getItem('9'));
@@ -48,8 +48,7 @@ $("#17 .text").val(localStorage.getItem('17'));
 
 })
 
-// all colums live in a row have to equal to 12 in boot
-//if numbers in console are purple they are an integer so if black need to parse
+
 
 
 
